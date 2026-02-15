@@ -39,7 +39,16 @@
 - Demo user: demo@carepilot.ai / carepilot-demo
 - Design: Accessible palette (#004d6d text, #0097b2 icons, #aee4ff bg, #fff8d7 accent, #f66 CTA)
 
-### 3. Marketplace for Client (QUEUED)
+### 3. Patas4Land (COMPLETED - Feb 2026)
+**Status:** MVP deployed, bot integration pending
+- Foot content marketplace on Monad blockchain
+- Tech: Next.js 16, Telegram bot, Vercel Blob, Drizzle ORM
+- Features: Seller profiles (age/country/bio), functional categories, crypto payments
+- Deployed: https://patas4land.vercel.app
+- Revenue model: 3% platform, 7% reforestation, 90% seller
+- **Key Learning:** 5 design iterations taught me to start smaller, ask more questions upfront, study references first
+
+### 4. Marketplace for Client (QUEUED)
 **Status:** Client waiting, in pipeline
 - E-commerce marketplace build
 - Pays immediately, one-time project
@@ -147,3 +156,42 @@
 - ✅ Member of fruteroclub org
 - ✅ Can view all repos
 - ❓ Write access TBD (haven't tested yet)
+
+## My Skills & Infrastructure (Updated Feb 15, 2026)
+
+### Custom Skills Installed
+1. **Standard OpenClaw Skills** (exec, browser, cron, messaging, etc.)
+2. **Convex Backend Skill** - Database operations (installed Feb 13)
+3. **PHEV Model Orchestrator** - Cost-optimized AI routing
+   - Location: `~/.openclaw/model-orchestrator/`
+   - Gemini Flash (cheap) → OpenAI (mid) → Claude (premium)
+   - Tracks usage in Convex DB
+   - **Note:** Not in git repo yet (should backup)
+
+### Design System Knowledge (NEW - Feb 15, 2026)
+**Learned from:** Patas4Land v1.0 → v5.0 iterations
+
+**Key Principles:**
+- **Discovery first:** Ask about ACTUAL product, study references, clarify business model
+- **Typography:** Start smaller (text-4xl/5xl mobile, not text-9xl)
+- **Spacing:** Compact nav (py-4), sections (py-24), hero calc(100vh - navHeight)
+- **Copy:** Direct beats poetic for marketplaces (clarity > mystery)
+- **Colors (Noir):** Black base, gray-900/800 borders, gold accents
+- **Marketplaces:** Functional > Artistic, feature differentiators upfront
+
+**Anti-patterns to avoid:**
+- Inventing brand voice without asking
+- Using Awwwards aesthetics blindly (too big typography)
+- Over-designing "edgy" vibes for functional products
+- Ignoring business model in early design
+
+**Goal:** Next frontend project v1.0 = what v5.0 was today (fewer iterations)
+
+**Detailed doc:** `memory/2026-02-15-design-learnings.md`  
+**Convex ID:** `j97ftx16v8n0fax76pc7sp4b7d8167m6`
+
+### Proposed Skills to Build
+1. **design-system** - Encode frontend learnings into reusable workflow
+   - Discovery template, typography scales, spacing presets
+   - Component patterns (nav, hero, cards, CTAs)
+   - Would help me start projects at v5.0 quality from day 1
