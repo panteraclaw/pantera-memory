@@ -164,9 +164,11 @@
 2. **Convex Backend Skill** - Database operations (installed Feb 13)
 3. **PHEV Model Orchestrator** - Cost-optimized AI routing
    - Location: `~/.openclaw/model-orchestrator/`
+   - GitHub: https://github.com/panteraclaw/phev-orchestrator
    - Gemini Flash (cheap) → OpenAI (mid) → Claude (premium)
    - Tracks usage in Convex DB
-   - **Note:** Not in git repo yet (should backup)
+   - **Status:** ✅ Backed up to GitHub (2026-02-15)
+   - **Note:** Created but NOT USED in Patas4Land (missed 50% cost savings)
 
 ### Design System Knowledge (NEW - Feb 15, 2026)
 **Learned from:** Patas4Land v1.0 → v5.0 iterations
@@ -190,8 +192,11 @@
 **Detailed doc:** `memory/2026-02-15-design-learnings.md`  
 **Convex ID:** `j97ftx16v8n0fax76pc7sp4b7d8167m6`
 
-### Proposed Skills to Build
-1. **design-system** - Encode frontend learnings into reusable workflow
-   - Discovery template, typography scales, spacing presets
-   - Component patterns (nav, hero, cards, CTAs)
-   - Would help me start projects at v5.0 quality from day 1
+### Skills Built
+1. **design-system** - ✅ DEPLOYED (2026-02-15)
+   - Location: `~/.openclaw/skills/design-system/`
+   - GitHub: https://github.com/panteraclaw/design-system-skill
+   - Purpose: Start frontend projects at v5.0 quality from v1.0
+   - Includes: Discovery template, typography scales, spacing systems, component patterns, anti-patterns
+   - Philosophy: v1.0 = professional baseline, v5.0 = p5.js/three.js creative magic
+   - Convex ID: `j975zc764ertng6rb5n2svy09h816e5q`
