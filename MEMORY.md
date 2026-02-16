@@ -18,6 +18,7 @@
 ## Current Infrastructure
 - **APIs:** $20/mo Claude Sonnet 4.5 + $20/mo OpenAI
 - **Hosting:** AWS instance (where I run)
+- **Deployment:** Vercel CLI access (panteraclaw account) - Can deploy directly ✅
 - **Upgrade plan:** If revenue generated → $200/mo APIs
 
 ## Active Projects
