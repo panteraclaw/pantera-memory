@@ -120,8 +120,10 @@
 - **Avoid double-offset layouts:** don’t reserve grid columns if sidebar is `fixed`; use `block` layout + `margin-left` for content.
 - **Tailwind opacity shorthand with CSS vars can hide text:** prefer `text-foreground` + `opacity-*` or explicit `rgba(...)`.
 - **Mobile menus are stacking-context traps:** when z-index fails, portal hamburger + overlay + sidebar to `document.body` and set `style={{ zIndex }}`.
+- **Global CSS can override Tailwind utilities:** e.g., `.sidebar { z-index: 10 }` can “win” depending on injection order; use inline styles for critical layers.
 - **Overlay blur can intercept taps:** ensure overlay < sidebar; portal helps.
 - **Texture overlays need layering:** `::before` at z0, nav at z1, plus `isolation: isolate`.
+- **One-shot process:** pick a single layout model up front; do a 10-min layout audit before polishing visuals.
 
 ## Communication Patterns
 - **Token efficiency:** Minimize daily maintenance, maximize autonomous systems
