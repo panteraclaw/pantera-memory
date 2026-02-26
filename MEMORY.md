@@ -49,7 +49,48 @@
 - Revenue model: 3% platform, 7% reforestation, 90% seller
 - **Key Learning:** 5 design iterations taught me to start smaller, ask more questions upfront, study references first
 
-### 4. Marketplace for Client (QUEUED)
+### 4. JulianaFrausto (COMPLETE - Feb 24, 2026)
+**Status:** ✅ COMPLETE - QUANTUM LEAP DESIGN (v3.0 - Artistic Vibrance)
+
+### 5. RLS Jerusalem #336 (NEW - Feb 24, 2026)
+**Status:** 🚧 IN PROGRESS - Base structure complete
+- Platform for Respetable Logia Simbólica Jerusalem #336
+- Tech: Next.js 16, Neon Postgres, Drizzle ORM, Vercel Blob, NextAuth
+- Features: Public site + private portal + admin panel
+- Repo: https://github.com/panteraclaw/rls-jerusalem-336 (PRIVATE)
+- **Design:** Minimalista masónico - negro, oro, terciopelo
+- **Auth:** Email/password (no Privy), admin whitelists hermanos
+- **Roles:** Admin, Maestro, Compañero, Aprendiz (permisos por grado)
+- **Public:** Home (carrusel), Nosotros, Masonería, Filantropía, Eventos, Arcanum, Form ingreso
+- **Portal:** Dashboard, Membresía, Biblioteca Virtual (filtrada), Libro Vida, Archivo, Plan Anual
+- **Admin:** CRUD users, CMS, biblioteca upload, Arcanum, carrusel, solicitudes
+- **Layout:** 2/8 (sidebar 200px + content)
+- **Database schema:** 7 tables (users, contenido_publico, biblioteca, arcanum, carrusel, solicitudes_ingreso, plan_trabajo)
+- **Typography:** Cinzel (headings) + Crimson Text (body)
+- **Progress:** ✅ Schema, CSS, layout, sitio público completo | ⏳ Portal privado, admin, auth pending
+- Digital flipbook for artist Juliana Frausto
+- Tech: Next.js 16, Neon Postgres, Drizzle ORM, Vercel Blob, Framer Motion
+- Features: Book-style flipbook with image+details, admin panel, payment infra (dormant), gallery
+- Repo: https://github.com/panteraclaw/JulianaFrausto
+- Deploy: https://juliana-frausto.vercel.app
+- Admin: julianafrausto2211@gmail.com (whitelisted)
+- **Design v3.0 (QUANTUM LEAP):** Vibrant artistic design inspired by Juliana's actual artwork
+  - **Colors:** Pink (#ff6b9d), Blue (#6ba8ff), Gold (#ffd93d) - from her painting
+  - **8-layer watercolor** background with STRONG visible color splashes (opacity 0.45)
+  - **Floating eyes:** 6 animated circular elements inspired by eyes in her work
+  - **Gradient brushstrokes:** Pink→Blue→Gold gradients in all decorative elements
+  - **Rich paper texture:** Noise + crosshatch for authentic watercolor paper feel
+  - **Animated background:** Floating animation on entire watercolor layer
+- **Typography:** Comfortaa + Quicksand, artistic weight, soft spacing
+- **Navigation:** Wallet button REMOVED from nav (only in /portfolio for purchases)
+- **Flipbook:** Libro format with image + detailed metadata panel
+- **Portfolio:** Connect Wallet button added for crypto purchases
+- **Admin login:** Privy integration (see PRIVY_SETUP.md)
+- **Design iterations:** v1.0 (green) → v2.0 (yellow) → v2.1 (menu) → v2.2 (white) → v3.0 (VIBRANT)
+- **Instagram:** @jules.frausto
+- **Inspiration:** Actual artwork shown by client (blue figure with red veil, vibrant colors)
+
+### 5. Marketplace for Client (QUEUED)
 **Status:** Client waiting, in pipeline
 - E-commerce marketplace build
 - Pays immediately, one-time project
@@ -74,6 +115,13 @@
 - **Database:** Neon Postgres, Drizzle ORM
 - **Blockchain:** BNB Chain (low gas)
 - **Design:** Accessible, playful, WCAG AAA when needed
+
+## Design Learnings (RLS Jerusalem #336 — Feb 26, 2026)
+- **Avoid double-offset layouts:** don’t reserve grid columns if sidebar is `fixed`; use `block` layout + `margin-left` for content.
+- **Tailwind opacity shorthand with CSS vars can hide text:** prefer `text-foreground` + `opacity-*` or explicit `rgba(...)`.
+- **Mobile menus are stacking-context traps:** when z-index fails, portal hamburger + overlay + sidebar to `document.body` and set `style={{ zIndex }}`.
+- **Overlay blur can intercept taps:** ensure overlay < sidebar; portal helps.
+- **Texture overlays need layering:** `::before` at z0, nav at z1, plus `isolation: isolate`.
 
 ## Communication Patterns
 - **Token efficiency:** Minimize daily maintenance, maximize autonomous systems
