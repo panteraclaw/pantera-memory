@@ -52,7 +52,30 @@
 ### 4. JulianaFrausto (COMPLETE - Feb 24, 2026)
 **Status:** ✅ COMPLETE - QUANTUM LEAP DESIGN (v3.0 - Artistic Vibrance)
 
-### 5. RLS Jerusalem #336 (NEW - Feb 24, 2026)
+### 5. RLS Jerusalem #336 (COMPLETE - Feb 26, 2026)
+**Status:** ✅ COMPLETE - Sitio público deployado
+- Platform for Respetable Logia Simbólica Jerusalem #336
+- Tech: Next.js 16, Neon Postgres, Drizzle ORM, Vercel Blob, NextAuth
+- Features: Public site (Home carousel, Nosotros, Masonería, Filantropía, Eventos, Arcanum, Form ingreso)
+- Repo: https://github.com/panteraclaw/rls-jerusalem-336 (PRIVATE)
+- Deploy: https://rls-jerusalem-336.vercel.app
+- **Design:** Minimalista masónico - negro, oro, terciopelo
+- **Typography:** Cinzel (headings) + Crimson Text (body)
+- **Key learnings:** Avoid double-offset layouts, portal mobile menus, inline zIndex for critical layers
+
+### 6. TAAK Studio Portfolio (NEW - Feb 28, 2026)
+**Status:** 🚀 IN DEVELOPMENT - Base espacial lista
+- Portfolio web interactivo para TAAK Studio (agencia de desarrollo web de Vale)
+- Tech: Next.js 15, Three.js, React, Tailwind CSS
+- Features: Escena espacial 3D, portfolio grid, navegación por tabs, efectos post-processing
+- Repo: https://github.com/TA-AK-STUDIO/taak-studio-portfolio (PUBLIC)
+- **Design:** Espacial/futurista - negro, cyan, azul
+- **Base code:** Forked from Vale's LinkTree-2.0 (escena espacial ya optimizada)
+- **Next steps:** Vale agregará lista real de proyectos + branding assets
+- **Stack highlights:** 
+  - Three.js scene con starfield, galaxias, nebulosas, planetas
+  - Post-processing: Bloom + FXAA + custom Sharpen shader
+  - Scroll-based zoom dinámico
 **Status:** 🚧 IN PROGRESS - Base structure complete
 - Platform for Respetable Logia Simbólica Jerusalem #336
 - Tech: Next.js 16, Neon Postgres, Drizzle ORM, Vercel Blob, NextAuth
